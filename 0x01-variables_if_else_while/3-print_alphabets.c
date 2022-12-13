@@ -7,9 +7,9 @@ int main(void)
 {	
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++; C++)
 	{
-		if (c != 'e' && c != 'q')
+		if (C != 'E' && C != 'Q')
 			putchar(c);
 	}
 	putchar('\n');
