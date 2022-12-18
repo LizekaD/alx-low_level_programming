@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char c;
+	char c = 'a'
 	int num;
 
 	for (num = 0; num < 16; num++)
@@ -14,7 +14,8 @@ int main(void)
 		if (num < 10)
 		{
 			putchar(num + '0');
-		}else
+		}
+		else
 		{
 			putchar(c);
 			c++;
