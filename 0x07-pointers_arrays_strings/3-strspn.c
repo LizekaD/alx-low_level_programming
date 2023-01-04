@@ -2,7 +2,7 @@
 
 /**
  * _strspn - length of a prefix substring.
- * @s: string 
+ * @s: source string
  * @accept: searching string
  *
  * Return: new string
