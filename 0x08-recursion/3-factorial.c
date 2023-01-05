@@ -4,7 +4,7 @@
  * factorial - factorial of a given number
  * @n: number to find the factorial.
  *
- * Return: if n > 0 -the factorial of n
+ * Return: if n > 0 - the factorial of n
  * 	if n > 0 -1 to indicate an error.
  */
 int factorial(int n)
