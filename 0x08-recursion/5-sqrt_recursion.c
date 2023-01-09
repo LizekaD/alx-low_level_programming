@@ -5,10 +5,18 @@
  *
  * Return: sqrt of numbers of -1
  */
-int helperFuction(int * psqrt) > num)
-	return (-1);
+int helperFuction(int num , int pSqrt)
+{
+	if ((pSqrt * pSqrt == num)
+	{
+		return (pSqrt);
+	}
 	else
-	return (helperFuction(num, psqrt + 1));
+	{
+	if ((pSqrt * pSqrt) > num)
+			return (-1);
+		else
+			return (helperFuction(num, psqrt + 1));
 	}
 }
 /**
