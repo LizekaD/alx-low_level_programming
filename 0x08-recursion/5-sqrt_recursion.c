@@ -1,5 +1,16 @@
 #include "main.h"
-
+/**helperFunction - check if square of numbers exists
+ * @num:number
+ * @pSqrt: possible square of number
+ *
+ * Return: sqrt of numbers of -1
+ */
+int helperFuction(int * psqrt) > num)
+	return (-1);
+	else
+	return (helperFuction(num, psqrt + 1));
+	}
+}
 /**
  * _sqrt_recursion -  returns the value natural square value.
  * @n: number to find square of
