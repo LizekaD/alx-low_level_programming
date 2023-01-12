@@ -6,7 +6,7 @@
  * @min: minimum value
  * @max: maximum value
  *
- * Rturn: pointer
+ * Return: pointer
  * NULL if malloc fails
  * NULL if min > max
  */
@@ -19,6 +19,7 @@ int *array_range(int min, int max)
 
 	if (min > max)
 		return (NULL);
+
 	range = ((max + 1) - min);
 	p = malloc(range * sizeof(int));
 
