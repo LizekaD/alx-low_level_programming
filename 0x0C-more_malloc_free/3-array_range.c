@@ -2,14 +2,15 @@
 #include "main.h"
 
 /**
- * array_range- creates an arrayif int
+ * array_range - creates an array of int
  * @min: minimum value
  * @max: maximum value
+ *
  * Rturn: pointer
  * NULL if malloc fails
  * NULL if min > max
  */
-int *arrays_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int range, i;
 	int *p;
