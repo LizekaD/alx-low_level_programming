@@ -11,6 +11,7 @@ int _strlen(char *string)
 	int i;
 
 	for (i = 0; string[i] != '\0'; i++)
+		;
 		return (i);
 }
 /**
@@ -20,7 +21,6 @@ int _strlen(char *string)
  * @n: byte to concat from string 2
  * Return: pointer to concatenated string
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
