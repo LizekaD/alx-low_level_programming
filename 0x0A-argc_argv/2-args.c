@@ -7,7 +7,7 @@
  *
  * @argc: number of argument
  * @argv: array of argument
- * Return: 0 
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
