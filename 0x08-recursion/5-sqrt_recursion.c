@@ -1,11 +1,12 @@
 #include "main.h"
-/**helperFunction - check if square of numbers exists
+/**
+ * helperFunction - check if square of numbers exists
  * @num:number
  * @pSqrt: possible square of number
  *
  * Return: sqrt of numbers of -1
  */
-int helperFuction(int num , int pSqrt)
+int helperFunction(int num, int pSqrt)
 {
 	if ((pSqrt * pSqrt) == num)
 	{
@@ -16,7 +17,7 @@ int helperFuction(int num , int pSqrt)
 	if ((pSqrt * pSqrt) > num)
 			return (-1);
 		else
-			return (helperFuction(num, psqrt + 1));
+			return (helperFunction(num, pSqrt + 1));
 	}
 }
 /**
