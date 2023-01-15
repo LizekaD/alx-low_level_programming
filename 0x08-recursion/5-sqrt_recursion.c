@@ -7,7 +7,7 @@
  */
 int helperFuction(int num , int pSqrt)
 {
-	if ((pSqrt * pSqrt == num)
+	if ((pSqrt * pSqrt) == num)
 	{
 		return (pSqrt);
 	}
