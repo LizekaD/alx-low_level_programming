@@ -1,7 +1,7 @@
 #include <stdarg.h>
 
 /**
- * int sum_them_all - returns the sum of all its parameters
+ * sum_them_all - returns the sum of all its parameters
  * @n: number of argument to be summed
  *
  * Return: sum or 0
